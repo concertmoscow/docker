@@ -18,8 +18,8 @@ services:
     environment:
       MONGO_HOST: "mongo"
       MONGO_PORT: 27017
-    volumes:
-      - ./back:/app/src
+#    volumes:
+#      - ./back:/app/src
 
   front:
     container_name: front
@@ -28,5 +28,5 @@ services:
     network_mode: host
     environment:
       API_URL: 'https://api.concert.moscow'
-    volumes:
-      - ./front:/app/src
+#    volumes:
+#      - ./front:/app/src
