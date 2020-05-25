@@ -26,6 +26,6 @@ services:
     build: ./front
     network_mode: host
     environment:
-      API_URL: 'http://localhost:7007'
+      API_URL: 'https://api.concert.moscow'
     volumes:
       - ./front:/app
