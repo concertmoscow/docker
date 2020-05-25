@@ -24,6 +24,7 @@ services:
   front:
     container_name: front
     build: ./front
+    restart: always
     network_mode: host
     environment:
       API_URL: 'https://api.concert.moscow'
