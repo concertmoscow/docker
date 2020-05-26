@@ -18,6 +18,7 @@ services:
     environment:
       MONGO_HOST: "mongo"
       MONGO_PORT: 27017
+      cron_parse: true
 #    volumes:
 #      - ./back:/app/src
 
