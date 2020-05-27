@@ -32,3 +32,4 @@ services:
       API_URL: 'https://api.concert.moscow'
     volumes:
       - ./exchange:/exchange
+      - ./exchange:/app/src/public/exchange
