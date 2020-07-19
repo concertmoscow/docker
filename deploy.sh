@@ -1,4 +1,4 @@
-docker-compose down
+#docker-compose down
 rm -rf ./back
 rm -rf ./front
 mv ./data ./_data
