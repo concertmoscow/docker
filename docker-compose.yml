@@ -22,7 +22,7 @@ services:
       exchange: '/exchange'
     volumes:
       - ./exchange:/exchange
-      - ./exchange/fresh.json:/app/src/static/fresh.json
+      - ./exchange:/app/src/exchange
 
   front:
     container_name: front
